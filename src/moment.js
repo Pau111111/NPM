@@ -3,6 +3,10 @@
     this.name = name;
   }
 }*/
-export function sayHi(user) {
+/*export function sayHi(user) {
     alert(`Hello, ${user}!`);
+  }*/
+  const moment=(gretting)=>{
+    return `${gretting}`
   }
+  export {moment};
