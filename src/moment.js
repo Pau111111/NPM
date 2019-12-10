@@ -1,12 +1,14 @@
-/*export default class User { // just add "default"
+export default class User { // just add "default"
   constructor(name) {
     this.name = name;
   }
-}*/
-/*export function sayHi(user) {
-    alert(`Hello, ${user}!`);
-  }*/
-  const moment=(gretting)=>{
-    return `${gretting}`
+  sayName(){
+    return `Hi, I'm ${this.name}`;
   }
-  export {moment};
+}
+export function sayHi(user) {
+    alert(`Hello, ${user}!`);  
+}
+export const moment=(gretting)=>{
+    return `Grettings from ${gretting}`
+}

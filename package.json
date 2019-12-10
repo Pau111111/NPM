@@ -4,7 +4,8 @@
   "description": "NPM is a tool that manages the dependencies of our Javascript project, both in client and in backend (NodeJs). Thanks to this tool, we can work with the installation of those modules that our project needs in a comfortable way, avoiding all the problems involved in installing the dependencies manually and without any control or supervision.  The dependencies are installed in a directory (default called / node_modules). What happens if my bookstores depend on others? It is also able to solve that and download everything necessary for it to work and thus, avoid doing it manually.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start:dev":"webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,8 @@
   },
   "homepage": "https://github.com/diegosilva91/NPM#readme",
   "devDependencies": {
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   }

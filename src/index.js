@@ -1,5 +1,6 @@
-import {moment}  from './moment.js'; // not {User}, just User
+import {moment, sayHi, default as User}  from './moment.js'; // not {User}, just User
 //let User = user.default;// the default export
-//new User('Diego');
-//sconsole.log(User);
-console.log(moment('Diego'));
+const users=new User('Diego');
+sayHi('User');
+console.log(users.sayName());
+console.log(moment('the owner'));
